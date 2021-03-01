@@ -15,10 +15,14 @@ body {
     color: darkblue;
     background-color: cyan;
     height: 300px;
-    width: 70%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #555;
+}
+.title {
+    align-self: flex-start;
 }
